@@ -312,7 +312,7 @@ cache :
 		rsync -mr --exclude "*-SNAPSHOT" --exclude "maven-metadata-*.xml" $(MVN_WORKSPACE)/ $(MVN_CACHE); \
 	fi
 
-clean : cache clean-workspace clean-old clean-website clean-dist clean-webui
+clean : cache clean-workspace clean-old clean-dist
 
 .PHONY : clean-workspace
 clean-workspace :

@@ -33,7 +33,7 @@
         <artifactId>audio-encoder-lame</artifactId>
         <version>3.0.5</version>
       </dependency>
-      
+
       <!--
           braille
       -->
@@ -110,7 +110,7 @@
         <artifactId>texhyph-utils</artifactId>
         <version>2.0.3</version>
       </dependency>
-      
+
       <!--
           common
       -->
@@ -159,7 +159,7 @@
         <artifactId>zip-utils</artifactId>
         <version>2.1.5</version>
       </dependency>
-      
+
       <!--
           nlp
       -->
@@ -198,7 +198,7 @@
       <!--   <artifactId>zedai-break-detection</artifactId> -->
       <!--   <version>2.0.2-SNAPSHOT</version> -->
       <!-- </dependency> -->
-      
+
       <!--
           scripts-utils
       -->
@@ -267,7 +267,7 @@
         <artifactId>zedai-utils</artifactId>
         <version>1.1.1</version>
       </dependency>
-      
+
       <!--
           scripts
       -->
@@ -406,7 +406,7 @@
         <artifactId>zedai-to-pef</artifactId>
         <version>5.0.2</version>
       </dependency>
-      
+
       <!--
           tts
       -->
@@ -464,6 +464,11 @@
       </dependency>
       <dependency>
         <groupId>org.daisy.pipeline.modules</groupId>
+        <artifactId>tts-adapter-ilona</artifactId>
+        <version>1.0.0</version>
+      </dependency>
+      <dependency>
+        <groupId>org.daisy.pipeline.modules</groupId>
         <artifactId>tts-adapter-osx</artifactId>
         <version>3.0.5</version>
       </dependency>
@@ -492,7 +497,7 @@
         <artifactId>mathml-to-ssml</artifactId>
         <version>1.0.4</version>
       </dependency>
-      
+
       <!--
           Third-Party Libraries
       -->

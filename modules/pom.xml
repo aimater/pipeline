@@ -66,6 +66,7 @@
     <module>tts/tts-adapters/tts-adapter-sapinative</module>
     <module>tts/tts-adapters/tts-adapter-qfrency</module>
     <module>tts/tts-adapters/tts-adapter-google</module>
+    <module>tts/tts-adapters/tts-adapter-ilona</module>
     <module>tts/tts-adapters/tts-adapter-cereproc</module>
     <module>tts/zedai-to-ssml</module>
     <module>tts/mathml-to-ssml</module>
@@ -105,12 +106,12 @@
     <module>scripts/zedai-to-html</module>
     <module>scripts/zedai-to-pef</module>
   </modules>
-  
+
   <!-- don't publish aggregator -->
   <properties>
     <skipNexusStagingDeployMojo>true</skipNexusStagingDeployMojo>
   </properties>
-  
+
   <build>
     <plugins>
       <plugin>
