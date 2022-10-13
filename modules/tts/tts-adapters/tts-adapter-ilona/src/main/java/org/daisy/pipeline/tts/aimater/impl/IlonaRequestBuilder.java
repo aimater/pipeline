@@ -98,7 +98,8 @@ public class IlonaRequestBuilder {
 						+ "\"ssml\":\"" + this.text + "\""
 					+ "},"
                     + "\"audioConfig\":{"
-                        + "\"audioEncoding\": \"RAW\""
+                        + "\"audioEncoding\": \"RAW\","
+                        + "\"volumeGainDb\": 3.0"
                     + "},"
                     + "\"auth\":{"
 				    	+ "\"key\": " + this.apiKey
